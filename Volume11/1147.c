@@ -4,6 +4,8 @@ int main(void){
 	int player = 0;
 	int ave_li[100] = {};
 	int flag = 1;
+	int judger = 0;
+	int num = 0;
 	while (flag == 1) {
 		scanf("%d", &judger);
 		if (judger > 0) {
